@@ -1,0 +1,405 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import '../../node_modules/susy/sass/susy';
+@import '../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
+
+$menu-breakpoint: (min-width: 0px) and (max-width: 850px);
+$footer-breakpoint: (min-width: 0px) and (max-width: 610px);
+$header-breakpoint: (min-width: 0px) and (max-width: 555px);
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  container: 932px,
+  container-position: center,
+  columns: (1, 1.5, 1.5, 1.5),
+  gutters: .25,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  )
+);
+
+html {
+  background: url('../images/background4.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poiret One', cursive;
+  .azuca-site {
+    .bold {
+      font-weight: bold;
+    }
+    a {
+      color: white !important;
+    }
+    a:hover {
+      color: white !important;
+    }
+    a:selected {
+      color: white !important;
+    }
+    a:-webkit-any-link {
+      color: white !important;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: normal;
+    }
+    .clear {
+      clear: both;
+    }
+    img.full {
+      width: 100%;
+    }
+    .top-ten {
+      padding-top: 5px;
+    }
+    .align-right {
+      text-align: right;
+    }
+    .align-left {
+      text-align: left;
+    }
+    .align-center {
+      text-align: center;
+    }
+  }
+}
+body {
+  @include container;
+}
+#main-nav {
+  @include span(1);
+  clear: both;
+  @include breakpoint($menu-breakpoint) {
+    @include span(last 3);
+    @include nobreak;
+    text-align: center;
+  }
+  @include breakpoint($header-breakpoint) {
+    @include span(4);
+  }
+  ul {
+    margin-left: -40px;
+    font-size: 20px;
+    li {
+      @include breakpoint($menu-breakpoint) {
+        display: inline;
+        border-right: 1px solid rgba(229, 166, 60, 0.7);
+        border-bottom: 0px solid;
+      }
+      list-style-type: none;
+      border-bottom: 1px solid rgba(229, 166, 60, 0.7);
+      width: 100%;
+      a {
+        @include breakpoint($menu-breakpoint) {
+          width: auto;
+          height: auto;
+          padding: 4px;
+        }
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        height: 24px;
+        display: inline-block;
+        padding-top: 4px;
+        &[data-route="brunch"] {
+          font-weight: 900;
+          font-size: 21px;
+        }
+      }
+      a:hover {
+        background-color: rgba(229, 166, 60, 0.4);
+      }
+      a.selected {
+        text-decoration: underline;
+      }
+    }
+    li:last-child {
+      border: 0px solid;
+    }
+  }
+}
+
+ul.sub-navigation {
+  text-align: center;
+  font-size: 22px;
+  margin-left: -40px;
+  li {
+    display: inline;
+    border-right: 1px solid rgba(229, 166, 60, 0.7);
+    list-style-type: none;
+    width: 100%;
+    a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      width: auto;
+      height: auto;
+      display: inline-block;
+      padding: 4px;
+    }
+    a:hover {
+      background-color: rgba(229, 166, 60, 0.4);
+    }
+    a.selected {
+      text-decoration: underline;
+    }
+  }
+  li:last-child {
+    border: 0px solid;
+  }
+}
+
+#main-logo {
+  @include span(1);
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px;
+  @include nobreak;
+  height: 411px;
+  background-image: url('../images/header/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+  @include breakpoint($header-breakpoint) {
+    @include span(2);
+    background-image: url('../images/header/logo_small.png');
+    height: 188px;
+    margin-left:10px;
+    text-align: left;
+    background-position: left;
+    clear: both;
+  }
+}
+#main-header {
+  .header-image-wrapper {
+    header {
+      font-size: 16px;
+      text-align: center;
+      font-weight: normal;
+      padding: 5px;
+      border-top: 1px solid rgba(229, 166, 60, 0.7);
+      border-bottom: 1px solid rgba(229, 166, 60, 0.7);
+      margin-bottom: 8px;
+      @include breakpoint($menu-breakpoint) {
+        font-size: 15px;
+      }
+    }
+    vertical-align: top;
+    @include span(last 3);
+    @include breakpoint($header-breakpoint) {
+      @include span(4);
+    }
+    @include nobreak;
+    .slideshow {
+        position: relative;
+        @include span(1 of 3 wide);
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        div {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          width: 100%;
+          img {
+            width: 97%;
+            height: auto;
+          }
+        }
+    }
+  }
+}
+#main-footer {
+  clear: both;
+  @include span(4);
+  bottom: 0px;
+  right: 0px;
+  .contact-info {
+    text-align: right;
+    padding: 5px;
+    border-top: 1px solid rgba(229, 166, 60, 0.7);
+    .media-icons {
+      @include span(17% last);
+      text-align: right;
+      img {
+        width: 35px;
+        vertical-align: middle;
+      }
+      @include breakpoint($footer-breakpoint) {
+        @include span(4);
+        text-align: left;
+        margin-top: 2px;
+      }
+    }
+    .footer-text {
+      font-size: 17px;
+      @include span(79%);
+      margin-top: 9px;
+      text-align: left;
+      span {
+        display: inline;
+        padding-bottom: 0px;
+      }
+      @include breakpoint($header-breakpoint) {
+        font-size: 15px;
+        margin-top: 0px;
+        span {
+            display: block;
+            padding-bottom: 5px;
+        }
+      }
+      @include breakpoint($menu-breakpoint) {
+        margin-top: 0px;
+        span {
+            display: block;
+            padding-bottom: 5px;
+        }
+      }
+      @include breakpoint($footer-breakpoint) {
+        @include span(4);
+      }
+    }
+  }
+  .creator_space {
+    margin-bottom: 8px;
+    border-top: 1px solid rgba(229, 166, 60, 0.7);
+    clear: both;
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: right;
+  }
+}
+#main-content {
+  @include span(last 3);
+  margin-top: -190px;
+  @include breakpoint($header-breakpoint) {
+    @include span(4);
+  }
+  @include breakpoint($menu-breakpoint) {
+    margin-top: 0px;
+  }
+  margin-bottom:5px;
+  padding: 6px;
+  font-size: 20px;
+  text-align: center;
+  .full {
+    @include span (2 of 2);
+  }
+  .full-center {
+    @include span (2 of 2);
+    .item-wrapper {
+      text-align: center;
+    }
+    &.no-price {
+      .item-name {
+        width: 100%;
+      }
+    }
+  }
+  .item-wrapper.half {
+    @include span (1 of 2);
+    @include breakpoint($header-breakpoint) {
+      @include span (2 of 2);
+    }
+  }
+  .content-git-private-events {
+    .heading {
+      font-size: 22px;
+    }
+  }
+  .content-git-ratings {
+    .rating-links {
+      a {
+        padding: 10px;
+        img {
+          width: 60px;
+        }
+      }
+    }
+  }
+  .content-entertainment {
+    img.full {
+      margin-top: 20px;
+    }
+  }
+  .content-vids {
+    .videoWrapper {
+      position: relative;
+      padding: 20px;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+    .videoWrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .content-valentines-landing {
+    ul {
+        list-style-position: inside;
+        margin-left: -40px;
+    }
+  }
+  .menu-wrapper {
+    .section-wrapper {
+      clear: both;
+      &.half {
+        .item-wrapper:nth-child(even) {
+          clear: both;
+        }
+        .item-wrapper:nth-child(odd) {
+          clear: none;
+        }
+      }
+    }
+    .section-name {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    .item-wrapper {
+      text-align: left;
+      margin-bottom: 10px;
+      .item-name {
+        font-size: 21px;
+        width: 87%;
+      }
+      .item-description {
+        font-style: italic;
+        font-size: 17px;
+      }
+      .item-price {
+        font-size: 12px;
+        float: right;
+        margin-top: -20px;
+      }
+      &.full-center {
+        text-align: center;
+      }
+      &.no-price {
+        .item-name {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
