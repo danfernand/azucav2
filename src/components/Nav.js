@@ -1,27 +1,33 @@
 // @flow
 
-import * as React from 'react'
-import NavItem from './NavItem'
+import * as React from "react";
+import NavItem from "./NavItem";
 
 const Nav = () => {
   return (
     <aside id="main-nav">
       <ul>
-      	<li>
+        <li>
           <NavItem exactSelected={true} to="/" label="Home" />
-      	</li>
-        <li>
+        </li>
+        {/* <li>
           <NavItem to="/brunch" label="Brunch" />
-      	</li>
+      	</li> */}
         <li>
-          <a href="https://www.ezcater.com/catering/pvt/azuca-nuevo-latino-san-antonio" target="_blank" rel="noopener noreferrer">{'Lunch Catering'}</a>
+          <a
+            href="https://www.ezcater.com/catering/pvt/azuca-nuevo-latino-san-antonio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {"Lunch Catering"}
+          </a>
         </li>
         <li>
           <NavItem to="/menu" label="Food & Bar" />
-      	</li>
+        </li>
         <li>
           <NavItem to="/reservations" label="Reserve Now" />
-      	</li>
+        </li>
         <li>
           <NavItem to="/happyhour" label="Happy Hour" />
         </li>
@@ -39,7 +45,7 @@ const Nav = () => {
         </li>
       </ul>
     </aside>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
