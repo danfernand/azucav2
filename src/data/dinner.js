@@ -67,85 +67,92 @@ export default [{
                 price: "Cup 4 | Bowl 7"
             }]
         }, {
-            sectionName: "Lunch Specials",
+            sectionName: "Del Mar",
             items: [{
-                name: "Roasted Cilantro Chicken",
-                description: "marinated in cilantro-lemon oil, mashers vegetables & coriander remoulade",
-                price: "9.50"
+                name: "Shrimp Moqueca",
+                description: "large shrimp in brazilian coconut curry steamed rice and vegetables",
+                price: "25"
             }, {
-                name: "Crab Crusted Salmon",
-                description: "crusted with mashers and crabmeat, vegetables cuitlacoche and zucchini blossom sauces",
-                price: "10.75"
+                name: "Paella",
+                description: "seafood, chicken, pork, sausage and vegetables mingled in fluffy saffron rice",
+                price: "28"
             }, {
-                name: "Pollo Al Pastor",
-                description: "traditionally marinated, roasted corn rice, black beans, salsa, condiments and tortillas",
-                price: "9.75"
+                name: "Grilled Octopus",
+                description: "baby arugula, cilantro and red onion salad spanish chorizo, smoked paprika oil",
+                price: "25.50"
             }, {
-                name: "Red fish Veracruz",
-                description: "fresh fillet, stewed in a rich tomato, peppers and olives ragout, steamed rice and veggies",
-                price: "9.90"
+                name: "Chilean Sea Bass",
+                description: "melted tomatoes, black bean cake grilled vegetables and plantain strips",
+                price: "29.50"
             }, {
-                name: "Churrasquino",
-                description: "grilled 6 oz. beef shoulder tender, sofrito & chimichurri sauces roasted corn mashers and vegetables",
-                price: "9.90"
+                name: "Seafood Caldo",
+                description: "gulf seafood, vegetables in a tomato & fennel scented broth",
+                price: "25.50"
             }, {
-                name: "Pasta Frontera",
-                description: "fettuccine pasta with grilled chicken in a creamy chipotle sauce",
-                price: "9.50 | shrimp 10.75"
+                name: "Guava Glazed Salmon",
+                description: "spinach, quinoa, yucca escabeche vsautéed pimentos",
+                price: "19.75"
             }, {
-                name: "Cuban Ropa Vieja",
-                description: "shredded beef, stewed with tomatoes, olives and onnions, white rice and black beans",
-                price: "9.90"
+                name: "Gambas al Ajillo",
+                description: "sautéed large shrimp, latin spices spanish chorizo, patatas bravas",
+                price: "22.50"
             }, {
-                name: "Chica Mixta",
-                description: "chicken breast, churrasco and jalapeño sausage with potatoes & sautéed vegetables",
-                price: "11"
-            }, {
-                name: "Chicken And Sausage Paella",
-                description: "spanish classic with tender chicken, jalapeño sausage and vegetables in saffron",
-                price: "10.50"
-            }, {
-                name: "Adding to your Salad",
-                description: "grilled chicken 6.00 seared salmon 9.00 blackened tuna 9.00 grilled shrimp (6) 11.00"
+                name: "Seed Crusted Ahi",
+                description: "multi-seed crusted tuna steak, corn tamal sautéed gandules, tamarind gastrique",
+                price: "20.50"
             }]
         }, {
-            sectionName: "Sandwiches",
+            sectionName: "More Meats",
             items: [{
-                name: "Choripan",
-                description: "grilled sausage, peppers and onions, fries and chimichurri",
-                price: "9.75"
+                name: "Pasta Frontera",
+                description: "fettuccine pasta, grilled chicken in a creamy chipotle sauce ...... with shrimp ???",
+                price: "16.50 | Shrimp 18.50"
             }, {
-                name: "Brazileiro",
-                description: "tender, open fire grilled beef steak with caipirinha cream, lettuce and grilled tomatoes, in a soft roll",
-                price: "9"
+                name: "Vegetariano",
+                description: "seasonal vegetables with your choice of pasta or steamed white rice or roasted potatoes",
+                price: "16"
             }, {
-                name: "Cubano",
-                description: "roasted pork loin slices, ham, swiss cheese mustard pickles in a griddle-pressed cuban roll",
-                price: "9.50"
+                name: "Chefs Trio",
+                description: "beef tenderloin, sautéed large shrimp and seared tuna with chef’s sauces, creamy mashed yam and vegetables",
+                price: "32.50"
             }, {
-                name: "Chicken Wrap",
-                description: "roasted chicken breast, rolled in a chipotle tortilla, with farmer’s cheese, lettuce, tomatoes & onions",
-                price: "9"
+                name: "Parrillada Mixta",
+                description: "churrasco, chicken breast, pork chop and jalapeño sausage, chimichurri, grilled vegetables and mashed potatoes",
+                price: "23.50"
             }, {
-                name: "Street Taquitos",
-                description: "your choice of beef or chicken in corn tortillas with beans, guac, pico and cilantro....hot salsa",
-                price: "9.50"
+                name: "Beef Rib",
+                description: "slow braised natural short beef rib, cascabel chile adobo, caribbean slaw, herbed potatoes",
+                price: "21.50"
             }, {
-                name: "Fish Tacos",
-                description: "our invention of fry sh llet, in soft corn tortillas, pico, guac, cabbage and our signature sauce",
-                price: "9.90"
+                name: "Ropa Vieja",
+                description: "latin shredded beef, stewed in rich tomatoes, olives and vegetables, moros & maduros",
+                price: "19.90"
             }, {
-                name: "Pull Pork",
-                description: "shredded, roasted pork with tangy bbq sauce, grilled onions, in a paisano bread",
-                price: "8.90"
+                name: "Pibil",
+                description: "baked pork butt w/achiote in banana leaves steamed rice, fried black beans, pickled onions",
+                price: "19.50"
+            }]
+        }, {
+            sectionName: "Fogon",
+            items: [{
+                name: "",
+                description: "our meat cuts, are grilled to your liking and are accompanied by our famous chimichurri sauce creamy mashers and grilled vegetables"
             }, {
-                name: "BLT+CHIX",
-                description: "grilled chicken breast, crispy bacon, lettuce tomato, garlic dressing, in sour dough",
-                price: "10.50"
+                name: "Beef Steak Churrasco",
+                description: "",
+                price: "19.50"
             }, {
-                name: "Tuna Negro",
-                description: "ahi tuna steak with caribbean slaw tomatoes, in a crusty roll",
-                price: "10.50"
+                name: "Center Cut Pork Chop",
+                description: "",
+                price: "17"
+            }, {
+                name: "Double Breast Chicken",
+                description: "",
+                price: "16"
+            }, {
+                name: "8 oz. Beef Tenderloin Medallion",
+                description: "",
+                price: "28"
             }]
         }, {
             sectionName: "Happy Ending",
