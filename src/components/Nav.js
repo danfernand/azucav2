@@ -26,6 +26,9 @@ const Nav = () => {
           <NavItem to="/menu" label="Food & Bar" />
         </li>
         <li>
+          <NavItem to="/culinaria" label="Culinaria" />
+        </li>
+        <li>
           <NavItem to="/reservations" label="Reserve Now" />
         </li>
         <li>
