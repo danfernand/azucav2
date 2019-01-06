@@ -5,11 +5,12 @@ import Awards from "./Awards";
 // import Brunch from "./Brunch";
 import Comments from "./Comments";
 import Findus from "./Findus";
+import NewYears from "./NewYears";
 import Menus from "./Menus";
 import Home from "./Home";
 import Reservations from "./Reservations";
 import HappyHour from "./HappyHour";
-import Culinaria from "./Culinaria";
+// import Culinaria from "./Culinaria";
 import Vids from "./Vids";
 
 import { Route } from "react-router-dom";
@@ -19,8 +20,8 @@ const Router = () => {
     <div id="main-content">
       <Route exact path="/" component={Home} />
       {/* <Route exact path="/brunch" component={Brunch} /> */}
-      <Route path="/culinaria" component={Culinaria} />
       <Route path="/menu" component={Menus} />
+      <Route path="/newYears" component={NewYears} />
       <Route exact path="/reservations" component={Reservations} />
       <Route exact path="/happyhour" component={HappyHour} />
       <Route exact path="/comments" component={Comments} />

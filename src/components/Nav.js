@@ -26,7 +26,7 @@ const Nav = () => {
           <NavItem to="/menu" label="Food & Bar" />
         </li>
         <li>
-          <NavItem to="/culinaria" label="Culinaria" />
+          <NavItem to="/newYears" label="New Years" />
         </li>
         <li>
           <NavItem to="/reservations" label="Reserve Now" />
