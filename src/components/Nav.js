@@ -25,9 +25,9 @@ const Nav = () => {
         <li>
           <NavItem to="/menu" label="Food & Bar" />
         </li>
-        <li>
+        {/* <li>
           <NavItem to="/newYears" label="New Years" />
-        </li>
+        </li> */}
         <li>
           <NavItem to="/reservations" label="Reserve Now" />
         </li>

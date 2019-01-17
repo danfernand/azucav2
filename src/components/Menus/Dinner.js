@@ -7,12 +7,12 @@ import Menu from "../Menu";
 const Dinner = () => {
   return (
     <React.Fragment>
-      <a href="pdf/Dinner.pdf" target="_blank">
+      <a href="../pdf/Dinner.pdf" target="_blank">
         {"Download"}
       </a>
-      <Menu menu={dinnerMenu} sectionType="half" />
+      <Menu menu={dinnerMenu} sectionType="full" />
       <div className="clear">
-        <a href="pdf/Dinner.pdf" target="_blank">
+        <a href="../pdf/Dinner.pdf" target="_blank">
           {"Download"}
         </a>
       </div>

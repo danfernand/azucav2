@@ -5,7 +5,6 @@ import lunchMenu from "data/culinariaLunch";
 import Menu from "../Menu";
 
 const Lunch = () => {
-  console.log("lunch");
   return (
     <React.Fragment>
       <a href="pdf/culinariaLunch.pdf" target="_blank">
