@@ -10,9 +10,9 @@ const Nav = () => {
         <li>
           <NavItem exactSelected={true} to="/" label="Home" />
         </li>
-        {/* <li>
-          <NavItem to="/brunch" label="Brunch" />
-      	</li> */}
+        <li>
+          <NavItem to="/culinaria" label="Culinaria" />
+        </li>
         <li>
           <a
             href="https://www.ezcater.com/catering/pvt/azuca-nuevo-latino-san-antonio"
