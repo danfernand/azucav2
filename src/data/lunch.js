@@ -44,26 +44,47 @@ export default [
         price: "11.50"
       },
       {
+        name: "Mofongo Criollo",
+        description: "plantain, chicharron and mojo de ajo over tomato broth",
+        price: "8.50, w/shrimp 12, w/octopus 13"
+      },
+      {
         name: "Appetizer Sampler",
         description:
-          "great sampling of our favorites; bbq chicken bites | tostones | ceviche guacamole | scampi al ajillo",
+          "great sampling of our favorites; jerk chicken bites | tostones | ceviche | chorizo argentino | scampi al ajillo",
         price: "23"
       }
     ]
   },
   {
-    sectionName: "Sopa | Salad",
+    sectionName: "Sopa",
     items: [
       {
-        name: "Shrimp & Quinoa",
+        name: "Black Bean Soup",
+        description: "traditional... with pico chicharrones and sour cream",
+        price: "cup 4, bowl 7"
+      },
+      {
+        name: "Sopa de Tortilla",
         description:
-          "chilled gulf shrimp, quinoa, cucumbers avocado, romaine hearts",
-        price: "9.50"
+          "signature tortilla soup with grilled chicken and fried tortilla hay",
+        price: "cup 4, bowl 7"
+      }
+    ]
+  },
+  {
+    sectionName: "Salad",
+    items: [
+      {
+        name: "Perivian Quinoa Salad",
+        description:
+          "with dry cranberries, cucumber and fresh avocado, baby arugula and cilantro",
+        price: "7.90"
       },
       {
         name: "Pepita Crusted Goat Cheese",
         description:
-          "garden greens, fresh strawberries & roasted pumpkin seeds, strawberry-honey vinaigrette",
+          "garden greens, fresh strawberries & roasted pumpkin seeds, beet shredds, strawberry-honey vinaigrette",
         price: "9.50"
       },
       {
@@ -79,21 +100,9 @@ export default [
         price: "8.50"
       },
       {
-        name: "Black Bean Soup",
-        description: "traditional...with pico, chicharrones and sour cream",
-        price: "Cup 4 | Bowl 7"
-      },
-      {
-        name: "Sopa de Tortilla",
+        name: "Adding To Your Salad",
         description:
-          "signature tortilla soup with grilled chicken and fried tortilla hay",
-        price: "Cup 4 | Bowl 7"
-      },
-      {
-        name: "Cook’s Soup",
-        description:
-          "let our cooks surprise you with their choice of seasonal creations, please ask your server",
-        price: "Cup 4 | Bowl 7"
+          "Grilled Chicken 6, Seared Salmon 9, Blackened Tuna 9, Grilled Shrimp (6) 11"
       }
     ]
   },
@@ -153,11 +162,6 @@ export default [
         description:
           "spanish classic with tender chicken, jalapeño sausage and vegetables in saffron",
         price: "10.50"
-      },
-      {
-        name: "Adding to your Salad",
-        description:
-          "grilled chicken 6.00 seared salmon 9.00 blackened tuna 9.00 grilled shrimp (6) 11.00"
       }
     ]
   },
@@ -224,10 +228,10 @@ export default [
     sectionName: "Happy Ending",
     items: [
       {
-        name: "Chocolate Addiction",
+        name: "Chocolate Lava Cake",
         description:
-          "rum moistened cake, warm chocolate ganache, fresh berries, chocolate truffle",
-        price: "7.90"
+          "warm chocolate cake with pisco-flavored chocolate ganache, over strawberry soup",
+        price: "7.50"
       },
       {
         name: "Tres Leches",
