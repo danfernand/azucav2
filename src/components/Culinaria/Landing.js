@@ -7,7 +7,7 @@ const Landing = () => {
     <React.Fragment>
       <p>
         {
-          "San Antonio Restaurants are on display showcasing the finest Alamo City Cuisine from the 11th to the 25th of this month."
+          "San Antonio Restaurants are on display showcasing the finest Alamo City Cuisine from January 21th to February 2nd."
         }
       </p>
       <p>
