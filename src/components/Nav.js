@@ -10,8 +10,11 @@ const Nav = () => {
         <li>
           <NavItem exactSelected={true} to="/" label="Home" />
         </li>
-        <li>
+        {/* <li>
           <NavItem to="/culinaria" label="Culinaria" />
+        </li> */}
+        <li>
+          <NavItem to="/valentines" label="Valentine's Day" />
         </li>
         <li>
           <a
