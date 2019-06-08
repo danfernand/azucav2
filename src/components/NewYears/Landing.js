@@ -6,7 +6,7 @@ const Landing = () => {
     <React.Fragment>
       <p>
         {
-          "Let&#39;s celebrate the New Year and welcome 2019 with some serious heat!..... Allow Azúca to take you away to a journey into the Latino World and presents our 2019 New Years Eve party."
+          "Let's celebrate the New Year and welcome 2019 with some serious heat!..... Allow Azúca to take you away to a journey into the Latino World and presents our 2019 New Years Eve party."
         }
       </p>
       <p>

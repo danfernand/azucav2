@@ -13,9 +13,12 @@ const Nav = () => {
         {/* <li>
           <NavItem to="/culinaria" label="Culinaria" />
         </li> */}
-        <li>
+        {/* <li>
           <NavItem to="/valentines" label="Valentine's Day" />
-        </li>
+        </li> */}
+        {/* <li>
+          <NavItem to="/mothersDay" label="Mother's Day" />
+        </li> */}
         <li>
           <a
             href="https://www.ezcater.com/catering/pvt/azuca-nuevo-latino-san-antonio"
